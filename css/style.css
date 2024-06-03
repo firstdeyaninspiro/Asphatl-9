@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.hero, .gallery, .news, .esport, .subscription {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.car-class, .news-item, .trailer, .event-info, .sponsors, .subscription form {
+    margin: 20px 0;
+}
+
+.car-item, .news-item, .sponsors img {
+    display: inline-block;
+    margin: 10px;
+}
+
+.news-item img, .sponsors img {
+    max-width: 100px;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .car-item, .news-item, .sponsors img {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .trailer, .event-info {
+        text-align: left;
+        margin: 0 10px;
+    }
+}
